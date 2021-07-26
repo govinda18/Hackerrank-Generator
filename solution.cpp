@@ -20,6 +20,13 @@ using namespace std;
 
 #define N  100005
 
+void solve()
+{
+    int n;
+    cin>>n;
+    cout<<n;
+}
+
 signed main()
 {
     ios_base::sync_with_stdio(false);
@@ -29,7 +36,7 @@ signed main()
 //    cin>>TESTS;
     while(TESTS--)
     {
-        // Code
+        solve();
     }
     return 0;
 }

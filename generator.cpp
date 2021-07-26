@@ -6,9 +6,27 @@ using namespace std;
 void writeTest(int test)
 {
     startTest(test);
-    /*
-        Generator Code
-    */
+    if(test==1)
+    {
+        cout<<3<<endl;
+        return;
+    }
+    if(test==2)
+    {
+        cout<<2<<endl;
+        return;
+    }
+    if(test==3)
+    {
+        cout<<1<<endl;
+        return;
+    }
+    int n;
+    if(test<=7)
+        n=rnd.next(1,100);
+    else
+        n=rnd.next(100,1000);
+    cout<<n<<endl;
 }
 
 
